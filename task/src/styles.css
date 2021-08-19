@@ -1,0 +1,33 @@
+.outerContainer {
+  border: 2px green solid;
+  position: relative;
+  height: 200px;
+}
+
+.leftContainer {
+  border: 2px red solid;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 150px;
+}
+
+.upContainer,
+.middleContainer,
+.bottomContainer {
+  border: 2px orange solid;
+  position: absolute;
+  left: 154px;
+}
+
+.upContainer {
+  top: 0;
+}
+
+.middleContainer {
+  top: 50px;
+}
+
+.bottomContainer {
+  bottom: 0;
+}
